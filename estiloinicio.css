@@ -1,0 +1,126 @@
+@charset "UTF-8";
+
+
+body {
+
+    background-color: #d8e6de;
+    font-family: 'Times New Roman', Times, serif;
+    
+}
+
+header {
+
+    background-color: #10d1d1;
+    font-family: 'Times New Roman', Times, serif;
+    min-width: 360px;
+    max-width: 1317px;
+    padding: 16px 17px;
+    margin: -10px;
+    color: whitesmoke;
+    background-image: linear-gradient(to bottom, rgb(17, 0, 253), rgba(158, 123, 123, 0.808));
+}
+
+header > h1 {
+    text-align:left;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 3em;
+}
+
+header > p {
+    text-align: center;
+    font-size: 20px;
+}
+
+nav {
+    padding: 13px;
+    margin: 10px -10px 10px -10px;
+    text-align: right;
+    background-color: #F2C6A0;
+    min-width: 360px;
+    max-width: 1325px;
+    box-shadow: 2px 2px 8px black;
+    }
+
+nav a {
+
+    padding: 15px;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    border-radius: 10px;
+    transition-duration: .4s;
+    font-weight: bold;
+    
+    
+    
+}
+
+nav > a:hover {
+
+    background-color: palegreen;
+    
+}
+
+
+
+main img {
+    height: 504px;
+    width: 1349px;
+    margin-top: -20px;
+    margin-left: -19px;
+}
+
+
+
+main{
+    background-color: #e3e9ee;
+    max-width: 1307px;
+    min-width: 360px;
+    margin: auto;
+    padding: 20px;
+    box-shadow: 0px 0px 10px black;
+    border-bottom-right-radius: 2.5px;
+    border-bottom-left-radius: 2.5px;
+    margin-left: -9px;
+    margin-right: -7px;
+    margin-top: -10px;
+    margin-bottom: -9px;
+}
+
+
+main > p {
+
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 15px;
+
+
+}
+aside {
+    margin: auto;
+    background-color: #90b2f0;
+    padding: 10px;
+    margin: -10px;
+    border-radius: 10px;
+    box-shadow: 2px 2px 7px black;
+}
+
+aside > h4 {
+    text-align: center;
+}
+
+aside > p {
+    text-align: left;
+}
+
+
+footer {
+    background-color: #e3e9ee;
+    box-shadow: 2px 2px 7px black;
+    padding: 10px;
+    border-bottom-left-radius: 2px;
+    border-bottom-right-radius: 2px;
+    margin-right: -7px;
+    margin-left: -8px;
+    margin-bottom: 10px;
+    margin-top: 9px;
+}
+  
